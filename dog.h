@@ -9,7 +9,10 @@ public:
     dogBreed = " ";
   }
 
-
+void displayInfo() {
+  Animal::displayInfo();
+  std::cout<< "Dog breed: " << dogBreed;
+}
 
 private:
 std::string dogBreed;
