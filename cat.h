@@ -1,5 +1,5 @@
 #ifndef cat_h
-#define cate_h
+#define cat_h
 #include <string>
 #include "animal.h"
 
