@@ -17,3 +17,5 @@ void displayInfo() {
 private:
 std::string dogBreed;
 };
+
+#endif
