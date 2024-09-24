@@ -11,7 +11,7 @@ public:
     type = " ";
   }
 
-void displayInfo() {
+virtual void displayInfo() {
   std::cout<< "Name: "<< name << "Age: "<< age << "Type: " << type << std::endl;
   return;
 }
