@@ -10,7 +10,7 @@ public:
   }
 void displayInfo() {
   Animal::displayInfo();
-  std::cout << "Breed: " << catBreed;
+  std::cout << "Breed: " << catBreed << std::endl;
 }
 
 private:
