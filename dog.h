@@ -9,7 +9,7 @@ public:
     dogBreed = " ";
   }
 
-void displayInfo() {
+void displayInfo() override {
   Animal::displayInfo();
   std::cout<< "Dog breed: " << breed << std::endl;
 }
