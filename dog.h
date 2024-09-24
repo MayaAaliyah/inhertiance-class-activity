@@ -11,11 +11,11 @@ public:
 
 void displayInfo() {
   Animal::displayInfo();
-  std::cout<< "Breed: " << dogBreed << std::endl;
+  std::cout<< "Breed: " << breed << std::endl;
 }
 
 private:
-std::string dogBreed;
+std::string breed;
 };
 
 #endif
