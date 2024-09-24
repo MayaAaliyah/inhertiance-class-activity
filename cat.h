@@ -8,7 +8,7 @@ public:
   Cat() {
     catBreed = " ";
   }
-void displayInfo() {
+void displayInfo() override {
   Animal::displayInfo();
   std::cout << "Cat breed: " << breed << std::endl;
 }
