@@ -6,7 +6,7 @@
 class Dog: public Animal {
 public:
   Dog() {
-    breed = " ";
+    std::string breed = " ";
   }
 
 void displayInfo() override {
