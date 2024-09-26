@@ -6,7 +6,7 @@
 class Cat: public Animal { 
 public:
   Cat() {
-    catBreed = " ";
+    std::string breed = " ";
   }
 void displayInfo() override {
   Animal::displayInfo();
