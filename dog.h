@@ -6,7 +6,7 @@
 class Dog: public Animal {
 public:
   Dog() {
-    dogBreed = " ";
+    breed = " ";
   }
 
 void displayInfo() override {
