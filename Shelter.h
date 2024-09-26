@@ -10,7 +10,7 @@ Shelter ::void addAnimal(Animal* animal) {
 
 
 Shelter::void removeAnimal(std::string name) {
-
+	animals.clear(std:: string name)
 }
 
 
